@@ -12,7 +12,7 @@ float TotalElectronica = 0.0 ,TotalMedicina = 0.0 , TotalRopa = 0.0;
 int TotalArtElectronica = 0, TotalArtMedicina = 0, TotalArtRopa = 0;
 int TotalPas1Electronica = 0, TotalPas2Electronica = 0;
 
-//Declaraci髇  de la estrutura para generar las notas de venta.
+//Declaraci贸n  de la estrutura para generar las notas de venta.
 struct Cliente
 {
 	int NumProductos;
@@ -23,24 +23,24 @@ struct Cliente
 		
 };
 
-//Declaraci髇 de array tipo struct para guardar los datos de la compra usando los campos de la structura cliente. 
+//Declaraci贸n de array tipo struct para guardar los datos de la compra usando los campos de la structura cliente. 
 struct Cliente DatosCompra [150];
 
-//Declaraci髇 de los campos de la strutura departamento
+//Declaraci贸n de los campos de la strutura departamento
 struct departamento
 {
 	char Nombre[20];
 	char Cat1[20], Cat2[20];
 };
 
-//Inicializaci髇 de los campos de la estructura departamento
+//Inicializaci贸n de los campos de la estructura departamento
 struct departamento Elec ={
 	"Electronica",
 	"Celulares",
 	"Televisores"
 };
 
-//declaraci髇 de los campos de la struct producto.
+//declaraci贸n de los campos de la struct producto.
 struct producto{
 	char categoria[50];
 	char Nombre[50];
@@ -48,7 +48,7 @@ struct producto{
 	float Precio;
 };
 
-//inicializaci髇  de los campos de la estructura producto
+//inicializaci贸n  de los campos de la estructura producto
 struct producto SubCat[8] = {
 	//Categoria 	Nombre		   Marca   Precio
 	//Productos de la subcategoria Televisores
